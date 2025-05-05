@@ -43,3 +43,64 @@ Each tweet includes the raw text, date, label, and a category name.
    ```bash
    git clone https://github.com/yourusername/twitter-topic-classification.git
    cd twitter-topic-classification
+
+
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the notebook or script:
+
+Use the .ipynb version for step-by-step
+
+Or run the .py file for full pipeline
+
+🧪 Evaluation Results (Example)
+Model	Accuracy	F1-Score (Macro)	AUC
+Naive Bayes	72.5%	0.71	0.85
+Logistic Regression	81.2%	0.80	0.91
+SVM	83.0%	0.82	—
+
+📊 Visualizations
+Confusion matrices for all models
+
+PCA scatter plot of TF-IDF vectors
+
+ROC and PR curves
+
+📁 Folder Structure
+cpp
+Copy
+Edit
+├── data/
+│   └── CETM47_24_5-AS2-Data.json
+├── models/
+│   └── saved_models.pkl (optional)
+├── plots/
+│   └── confusion_matrices.png, roc_curve.png, etc.
+├── twitter_topic_classification.ipynb
+├── twitter_topic_classification.py
+├── README.md
+└── requirements.txt
+🧠 Methodology
+This project follows the CRISP-DM data mining methodology:
+
+Business Understanding
+
+Data Understanding
+
+Data Preparation
+
+Modeling
+
+Evaluation
+
+Deployment (optional)
+
+📚 References
+scikit-learn documentation: https://scikit-learn.org/
+
+CRISP-DM model: https://www.datascience-pm.com/crisp-dm-2/
+
