@@ -68,22 +68,9 @@ Confusion matrices for all models
 
 PCA scatter plot of TF-IDF vectors
 
-ROC and PR curves
+ PR curve
 
-📁 Folder Structure
-cpp
-Copy
-Edit
-├── data/
-│   └── CETM47_24_5-AS2-Data.json
-├── models/
-│   └── saved_models.pkl (optional)
-├── plots/
-│   └── confusion_matrices.png, roc_curve.png, etc.
-├── twitter_topic_classification.ipynb
-├── twitter_topic_classification.py
-├── README.md
-└── requirements.txt
+
 🧠 Methodology
 This project follows the CRISP-DM data mining methodology:
 
@@ -97,7 +84,6 @@ Modeling
 
 Evaluation
 
-Deployment (optional)
 
 📚 References
 scikit-learn documentation: https://scikit-learn.org/
