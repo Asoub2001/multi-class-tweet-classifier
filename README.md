@@ -24,9 +24,9 @@ Each tweet includes the raw text, date, label, and a category name.
 - Preprocessing pipeline: URL removal, hashtag/mention retention, lowercasing
 - Text vectorization using **TF-IDF with n-grams**
 - Model training and tuning using:
-  - ✅ **Naive Bayes**(`GridSearchCV` tuned)
-  - ✅ **Logistic Regression** (`GridSearchCV` tuned)
-  - ✅ **Support Vector Machine (SVM)** (`GridSearchCV` tuned)
+  - **Naive Bayes**(`GridSearchCV` tuned)
+  -  **Logistic Regression** (`GridSearchCV` tuned)
+  - **Support Vector Machine (SVM)** (`GridSearchCV` tuned)
 - Visualizations:
   - 2D PCA of text features
   - Confusion matrices
