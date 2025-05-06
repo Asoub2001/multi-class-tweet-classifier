@@ -1,10 +1,10 @@
-# 🧠 Twitter Topic Classification
+#  Twitter Topic Classification
 
 A Natural Language Processing pipeline for multi-class classification of tweets into six topical categories using TF-IDF vectorization and machine learning models. Built for academic research and evaluation, following the CRISP-DM methodology.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset contains 6,443 human-labeled tweets, each assigned to one of the following categories:
 
@@ -19,12 +19,12 @@ Each tweet includes the raw text, date, label, and a category name.
 
 ---
 
-## ⚙️ Features
+##  Features
 
 - Preprocessing pipeline: URL removal, hashtag/mention retention, lowercasing
 - Text vectorization using **TF-IDF with n-grams**
 - Model training and tuning using:
-  - ✅ **Naive Bayes**
+  - ✅ **Naive Bayes**(`GridSearchCV` tuned)
   - ✅ **Logistic Regression** (`GridSearchCV` tuned)
   - ✅ **Support Vector Machine (SVM)** (`GridSearchCV` tuned)
 - Visualizations:
@@ -37,7 +37,7 @@ Each tweet includes the raw text, date, label, and a category name.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repo:
    ```bash
