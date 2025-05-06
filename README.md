@@ -63,7 +63,7 @@ Naive Bayes	72.5%	0.71	0.85
 Logistic Regression	81.2%	0.80	0.91
 SVM	83.0%	0.82	—
 
-📊 Visualizations
+ Visualizations
 Confusion matrices for all models
 
 PCA scatter plot of TF-IDF vectors
@@ -71,7 +71,7 @@ PCA scatter plot of TF-IDF vectors
  PR curve
 
 
-🧠 Methodology
+Methodology
 This project follows the CRISP-DM data mining methodology:
 
 Business Understanding
@@ -85,7 +85,7 @@ Modeling
 Evaluation
 
 
-📚 References
+References
 scikit-learn documentation: https://scikit-learn.org/
 
 CRISP-DM model: https://www.datascience-pm.com/crisp-dm-2/
